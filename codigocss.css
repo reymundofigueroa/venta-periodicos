@@ -1,0 +1,59 @@
+
+
+body{
+  background-color: #7D7C7C;
+}
+
+
+#titulo{
+  display: flex;
+  justify-content: center;
+  color:white;
+  background-color: #CCC8AA;
+  background-size:cover;
+}
+
+
+
+#secVentas{
+  display: flex;
+  justify-content: center;
+}
+
+#divVentas{
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  background-color: #F1EFEF;
+}
+
+#divDevolucion{
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  background-color: #F1EFEF;
+
+}
+
+#venta{
+  display: flex;
+  justify-content: center;
+  padding: 10PX;
+  font-size: 30px;
+
+}
+
+#devolucion{
+  display: flex;
+  justify-content: center;
+  padding: 10PX;
+  font-size: 30px;
+
+}
+#total{
+  display: flex;
+  justify-content:flex-end;
+  padding-right: 200px;
+  font-size: 25px;
+  color: white;
+}
