@@ -8,79 +8,51 @@
     <script> src="codigojs.js" </script>
     <link rel="stylesheet" href="codigocss.css">
 <body>
- 
-  <header id="titulo">
-
+  <header class="title">
     <h1>📰Periodicos de Occidente📰</h1>
-
   </header>
-
-   
-      
-   
-   
-    <section id="secWork">
-      <section id="periodicos">
-        <div id="divVentas">
-          
-          <div id="venta"><label>Ventas</label></div>
-   
-          <label id="info">INFORMADOR</label>
-          <input id="ventaInfo" type="number" name="ventaInfo">
-  
-          <label id="mural">MURAL </label>
-          <input id="ventaMural" type="number" name="ventaMural">
-
-          <label id="metro">METRO</label>
-          <input id="ventaMetro" type="number" name="ventaMetro">
-  
-          <label id="milenio">MILENIO</label>
-          <input id="ventaMilenio" type="number" name="ventaMilenio">
-  
-          <label id="occi">OCCIDENTAL</label>
-          <input id="ventaOcci" type="number" name="ventaOcci">
-
-          <label id="diario">DIARIO</label>
-          <input id="ventaDiario" type="number" name="ventaDiario">
+  <div class="cuenta">Total: $0.00</div>
+    <main>
+      <div class="card-container">
+        <div class="infor-card">
+          <img src="./assets/Informador.png" alt="Informador">
+          <label for="infor">
+            <input type="number">
+          </label>
         </div>
-  
-        <div id="divDevolucion">
-          <div id="devolucion"><label>Devolucion</label></div>
-    
-          <label id="devInfoLabel">INFORMADOR</label>
-          <input id="devInfo" type="number" name="devInfo">
-      
-          <label id="devMuralLabel">MURAL </label>
-          <input id="devMural" type="number" name="devMural">
-      
-          <label id="devMetroLabel">METRO</label>
-          <input id="devMetro" type="number" name="devMetro">
-          
-          <label id="devMilenioLabel">MILENIO</label>
-          <input id="devMilenio" type="number" name="devMilenio">
-      
-          <label id="devOcciLabel">OCCIDENTAL</label>
-          <input id="devOcci" type="number" name="devOcci">
-      
-          <label id="devDiarioLabel">DIARIO</label>
-          <input id="devDiario" type="number" name="devDiario">
+        <div class="mural-card">
+          <img src="./assets/Mural.jpeg" alt="Mural">
+          <label for="mural">
+            <input type="number">
+          </label>
         </div>
-
-      </section>
-
-    
-        <div id="total"><p>Total: $0</p></div>
-
-        <div id="divCliente">
-          <label id="cliente">Cliente</label>
-          <input id="inputCliente" type="char" name="inputCliente">
+        <div class="metro-card">
+          <img src="./assets/Metro.png" alt="Metro">
+          <label for="metro">
+            <input type="number">
+          </label>
         </div>
-    </section>
-
-      
-        
-
-    
-
+        <div class="milenio-card">
+          <img src="./assets/Milenio.jpeg" alt="Milenio">
+          <label for="milenio">
+            <input type="number">
+          </label>
+        </div>
+        <div class="occidental-card">
+          <img src="./assets/Occidental.jpeg" alt="Occidental">
+          <label for="occidental">
+            <input type="number">
+          </label>
+        </div>
+        <div class="diario-card">
+          <img src="./assets/Diario.jpg" alt="Diario">
+          <label for="diario">
+            <input type="number">
+          </label>
+        </div>
+      </div>
+      <div class="cliente">
+      </div>
+    </main>
 </body>
 </html>
